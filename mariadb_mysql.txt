@@ -1,0 +1,74 @@
+Sommaire :
+- 1 - MySQL et MariaDB
+- 2 - Connexion à la base de données par MariaDB ou MySQL
+- 3 - Remplacer le SGBD par défaut MariaDB par MySQL et vice-versa
+- 4 - Un seul gestionnaire de base de données - Aucun gestionnaire SGDB
+- 5 - SGDB par défaut: none - /!\ No Default DBMS
+- 6 - PhpMyAdmin
++-----------------------+
++ 1 MySQL et MariaDB ---+
++-----------------------+
+MySQL est supporté depuis le début de Wampserver et MariaDB est supporté depuis Wampserver 3.0.8.
+Pour les connexions SQL le port par défaut est et a toujours été le port 3306
+MySQL et MariaDB sont tous deux installés par le programme d'installation complet.
+
+Selon les versions des installeurs complets de Wampserver c'est soit MySQL, soit MariaDB qui est le gestionnaire de base de données par défaut.
+- Si MySQL est le gestionnaire par défaut, il utilise le port 3306, auquel cas MariaDB utilisera le port 3307.
+- Si MariaDB est le gestionnaire par défaut, il utilise le port 3306, auquel cas MySQL utilisera le port 3308.
+Le gestionnaire de base de données par défaut est indiqué sur le menu Clic-Gauche de Wampmanager
+
++---------------------------------------------------------+
++ 2 Connexion à la base de données par MariaDB ou MySQL --+
++---------------------------------------------------------+
+Le port SQL par défaut est le port 3306. Les connexions qui ne précisent pas le numéro de port aurons systématiquement lieu sur le port par défaut.
+Si le gestionnaire de bases de données (MySQL ou MariaDB) que vous voulez utiliser n'est pas le gestionnaire par défaut, on le répète : sans préciser le port, ce sera le port par défaut qui sera utilisé, donc le port 3306.
+Par défaut, les scripts de connexion ne mentionnent pas le port à utiliser. Par exemple :
+$mysqli = new mysqli('127.0.0.1', 'user', 'password', 'database');
+ou, en procédural :
+$mysqli = mysqli_connect('127.0.0.1', 'user', 'password', 'database');
+
+Donc, pour pouvoir se connecter avec un gestionnaire qui n'utilise pas le port 3306, il faut préciser le numéro de port :
+$mysqli = new mysqli('127.0.0.1', 'user', 'password', 'database', '3307');
+ou, en procédural :
+$mysqli = mysqli_connect('127.0.0.1', 'user', 'password', 'database', '3307');
+
+Pour vérifier les connexions sur le gestionnaire de base de données MySQL ou MariaDB, utilisez le script :
+wamp(64)\www\testmysql.php
+par 'http://localhost/testmysql.php' dans la barre d'adresse du navigateur en ayant, au préalable, modifié le script en fonction de vos paramètres.
+
++------------------------------------------------------------------+
++ 3 Remplacer le SGBD par défaut MariaDB par MySQL et vice-versa --+
++------------------------------------------------------------------+
+Note importante : Il est impératif de sauvegarder vos bases de données dans des fichiers SQL par export de celles-ci avant de remplacer MariaDB par MySQL ou vice-versa.
+C'est le seul moyen pérenne de transférer vos bases de données entre MySQL et MariaDB.
+- Il existe un outil pour inverser d'un seul clic le SGBD par défaut si les deux sont activés (MySQL ET MariaDB) :
+- Si MySQL est le SGBD par défaut
+Clic-Droit icône Wampmanager -> Outils -> Inverser SGBD par défaut MySQL <-> MariaDB
+ou
+- Si MariaDB est le SGBD par défaut
+Clic-Droit icône Wampmanager -> Outils -> Inverser SGBD par défaut MariaDB <-> MySQL
+Bien sûr, il vous reste à importer vos bases de données préalablement sauvegardées.
+
++----------------------------------------------+
++ 4 Un seul gestionnaire de bases de données --+
++    Aucun gestionnaire de bases de données  --+
++----------------------------------------------+
+Vous n'êtes pas obligé de conserver l'utilisation des deux gestionnaires MySQL et MariaDB, vous pouvez ne conserver que celui qui vous convient et vous pouvez même desactiver totalement les deux gestionnaires de bases de données par :
+Clic-Droit Icône Wampmanager -> Paramètres Wamp -> Autoriser MariaDB pour décocher
+Clic-Droit Icône Wampmanager -> Paramètres Wamp -> Autoriser MySQL pour décocher
+Vous pouvez réactiver l'un ou l'autre à une date ultérieure si vous le souhaitez et quand vous le souhaitez. Cette opération ne désinstalle pas le SGBD, elle désinscrit simplement le service Windows pour ce SGBD.
+
++----------------------------+
++ 5 SGDB par défaut : none --+
++    /!\ No Default DBMS   --+
++----------------------------+
+Cela signifie qu'aucun des gestionnaire de base de données (MariaDB et/ou MySQL) n'utilise le port 3306 et qu'il est donc impératif de préciser le numéro de port dans les demandes de connexions puisque celui-ci n'est pas le port par défaut 3306.
+Il est alors indispensable que vous choisissiez quel SGDB vous voulez utiliser par défaut ; pour ce faire, utilisez les outils intégrés (Clic-Droit -> Outils) pour affecter le port 3306 (Utiliser un port autre que xxxx) au SGDB (MariaDB ou MySQL) que vous voulez définir par défaut.
+
++----------------+
++ 6 PhpMyAdmin --+
++----------------+
+PhpMyAdmin est configuré pour vous permettre d'accéder à MySQL ou à MariaDB selon les SGBD qui sont actifs.
+Si les deux SGBD sont activés, vous verrez un menu déroulant sur l'écran de connexion, appelé "Choix du serveur", le serveur par défaut sera affiché en premier dans la liste déroulante. Sélectionnez ici le SGBD que vous souhaitez utiliser dans le cadre de la procédure de connexion.
+N'oubliez pas que si vous avez différents comptes d'utilisateurs, vous devez utiliser le bon pour le SGBD sélectionné.
+AUSSI : Si vous avez le même compte, c'est-à-dire "root" sur les deux SGBD, si vous avez défini des mots de passe différents, vous devez utiliser le bon mot de passe pour le compte et le SGBD.

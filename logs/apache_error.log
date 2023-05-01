@@ -1,0 +1,22 @@
+--- File cleaned up by Wampserver ---
+--- on 2023-04-13 11:10
+[Thu Apr 13 13:10:51.395876 2023] [mpm_winnt:notice] [pid 8560:tid 416] AH00430: Parent: Child process 22460 exited successfully.
+The 'wampapache64' service is restarting.
+Starting the 'wampapache64' service
+The 'wampapache64' service is running.
+winnt:notice] [pid 24092:tid 384] AH00455: Apache/2.4.54 (Win64) PHP/8.0.26 mod_fcgid/2.3.10-dev configured -- resuming normal operations
+[Thu Apr 13 13:12:34.000707 2023] [mpm_winnt:notice] [pid 24092:tid 384] AH00456: Apache Lounge VS16 Server built: Nov  2 2022 10:09:33
+[Thu Apr 13 13:12:34.000707 2023] [core:notice] [pid 24092:tid 384] AH00094: Command line: 'c:\\wamp64\\bin\\apache\\apache2.4.54.2\\bin\\httpd.exe -d C:/wamp64/bin/apache/apache2.4.54.2'
+[Thu Apr 13 13:12:34.005669 2023] [mpm_winnt:notice] [pid 24092:tid 384] AH00418: Parent: Created child process 20540
+[Thu Apr 13 13:12:34.490666 2023] [mpm_winnt:notice] [pid 20540:tid 428] AH00354: Child: Starting 64 worker threads.
+[Thu Apr 13 19:32:25.801846 2023] [mpm_winnt:notice] [pid 24092:tid 384] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Thu Apr 13 19:32:27.828838 2023] [mpm_winnt:notice] [pid 20540:tid 428] AH00364: Child: All worker threads have exited.
+[Thu Apr 13 19:32:30.371843 2023] [mpm_winnt:notice] [pid 24092:tid 384] AH00430: Parent: Child process 20540 exited successfully.
+[Sun Apr 16 11:13:36.021701 2023] [mpm_winnt:notice] [pid 10348:tid 384] AH00455: Apache/2.4.54 (Win64) PHP/8.0.26 mod_fcgid/2.3.10-dev configured -- resuming normal operations
+[Sun Apr 16 11:13:36.021701 2023] [mpm_winnt:notice] [pid 10348:tid 384] AH00456: Apache Lounge VS16 Server built: Nov  2 2022 10:09:33
+[Sun Apr 16 11:13:36.021701 2023] [core:notice] [pid 10348:tid 384] AH00094: Command line: 'c:\\wamp64\\bin\\apache\\apache2.4.54.2\\bin\\httpd.exe -d C:/wamp64/bin/apache/apache2.4.54.2'
+[Sun Apr 16 11:13:36.028701 2023] [mpm_winnt:notice] [pid 10348:tid 384] AH00418: Parent: Created child process 2000
+[Sun Apr 16 11:13:36.756701 2023] [mpm_winnt:notice] [pid 2000:tid 408] AH00354: Child: Starting 64 worker threads.
+[Sun Apr 16 14:01:59.181163 2023] [mpm_winnt:notice] [pid 10348:tid 384] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Sun Apr 16 14:02:01.206129 2023] [mpm_winnt:notice] [pid 2000:tid 408] AH00364: Child: All worker threads have exited.
+[Sun Apr 16 14:02:03.862127 2023] [mpm_winnt:notice] [pid 10348:tid 384] AH00430: Parent: Child process 2000 exited successfully.

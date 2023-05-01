@@ -1,0 +1,18 @@
+--- File cleaned up by Wampserver ---
+--- on 2023-04-13 11:10
+2023-04-13T11:10:50.852525Z 0 [System] [MY-010116] [Server] c:\wamp64\bin\mysql\mysql8.0.31\bin\mysqld.exe (mysqld 8.0.31) starting as process 10736
+2023-04-13T11:10:50.892349Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2023-04-13T11:10:51.788166Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2023-04-13T11:10:52.365851Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2023-04-13T11:10:52.366762Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2023-04-13T11:10:52.434684Z 0 [System] [MY-010931] [Server] c:\wamp64\bin\mysql\mysql8.0.31\bin\mysqld.exe: ready for connections. Version: '8.0.31'  socket: ''  port: 3306  MySQL Community Server - GPL.
+2023-04-13T17:32:31.190426Z 0 [System] [MY-013105] [Server] c:\wamp64\bin\mysql\mysql8.0.31\bin\mysqld.exe: Normal shutdown.
+2023-04-13T17:32:32.877999Z 0 [System] [MY-010910] [Server] c:\wamp64\bin\mysql\mysql8.0.31\bin\mysqld.exe: Shutdown complete (mysqld 8.0.31)  MySQL Community Server - GPL.
+2023-04-16T09:13:37.258675Z 0 [System] [MY-010116] [Server] c:\wamp64\bin\mysql\mysql8.0.31\bin\mysqld.exe (mysqld 8.0.31) starting as process 16608
+2023-04-16T09:13:37.380759Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2023-04-16T09:13:42.731379Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2023-04-16T09:13:44.816662Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2023-04-16T09:13:44.817754Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2023-04-16T09:13:44.938127Z 0 [System] [MY-010931] [Server] c:\wamp64\bin\mysql\mysql8.0.31\bin\mysqld.exe: ready for connections. Version: '8.0.31'  socket: ''  port: 3306  MySQL Community Server - GPL.
+2023-04-16T12:02:04.898303Z 0 [System] [MY-013105] [Server] c:\wamp64\bin\mysql\mysql8.0.31\bin\mysqld.exe: Normal shutdown.
+2023-04-16T12:02:06.233039Z 0 [System] [MY-010910] [Server] c:\wamp64\bin\mysql\mysql8.0.31\bin\mysqld.exe: Shutdown complete (mysqld 8.0.31)  MySQL Community Server - GPL.

@@ -1,0 +1,50 @@
+--- File cleaned up by Wampserver ---
+--- on 2023-04-13 11:10
+2023-04-13 13:10:52 0 [Note] InnoDB: Compressed tables use zlib 1.2.12
+2023-04-13 13:10:52 0 [Note] InnoDB: Using transactional memory
+2023-04-13 13:10:52 0 [Note] InnoDB: Number of transaction pools: 1
+2023-04-13 13:10:52 0 [Note] InnoDB: Using crc32 + pclmulqdq instructions
+2023-04-13 13:10:52 0 [Note] InnoDB: Initializing buffer pool, total size = 1.000GiB, chunk size = 16.000MiB
+2023-04-13 13:10:52 0 [Note] InnoDB: Completed initialization of buffer pool
+2023-04-13 13:10:52 0 [Note] InnoDB: File system buffers for log disabled (block size=512 bytes)
+2023-04-13 13:10:52 0 [Note] InnoDB: 128 rollback segments are active.
+2023-04-13 13:10:52 0 [Note] InnoDB: Setting file './ibtmp1' size to 12.000MiB. Physically writing the file full; Please wait ...
+2023-04-13 13:10:52 0 [Note] InnoDB: File './ibtmp1' size is now 12.000MiB.
+2023-04-13 13:10:52 0 [Note] InnoDB: log sequence number 46760; transaction id 14
+2023-04-13 13:10:52 0 [Note] Plugin 'FEEDBACK' is disabled.
+2023-04-13 13:10:52 0 [Note] Server socket created on IP: '::'.
+2023-04-13 13:10:52 0 [Note] Server socket created on IP: '0.0.0.0'.
+2023-04-13 13:10:52 0 [Note] c:\wamp64\bin\mariadb\mariadb10.10.2\bin\mysqld.exe: ready for connections.
+Version: '10.10.2-MariaDB'  socket: ''  port: 3307  mariadb.org binary distribution
+2023-04-13 19:32:33 0 [Note] Windows service "wampmariadb64":  received SERVICE_CONTROL_STOP
+2023-04-13 19:32:33 0 [Note] c:\wamp64\bin\mariadb\mariadb10.10.2\bin\mysqld.exe (unknown): Arrêt normal du serveur
+2023-04-13 19:32:33 0 [Note] InnoDB: FTS optimize thread exiting.
+2023-04-13 19:32:33 0 [Note] InnoDB: Starting shutdown...
+2023-04-13 19:32:33 0 [Note] InnoDB: Removed temporary tablespace data file: "./ibtmp1"
+2023-04-13 19:32:33 0 [Note] InnoDB: Shutdown completed; log sequence number 46760; transaction id 15
+2023-04-13 19:32:33 0 [Note] c:\wamp64\bin\mariadb\mariadb10.10.2\bin\mysqld.exe: Arrêt du serveur terminé
+
+2023-04-16 11:13:46 0 [Note] InnoDB: Compressed tables use zlib 1.2.12
+2023-04-16 11:13:46 0 [Note] InnoDB: Using transactional memory
+2023-04-16 11:13:46 0 [Note] InnoDB: Number of transaction pools: 1
+2023-04-16 11:13:46 0 [Note] InnoDB: Using crc32 + pclmulqdq instructions
+2023-04-16 11:13:46 0 [Note] InnoDB: Initializing buffer pool, total size = 1.000GiB, chunk size = 16.000MiB
+2023-04-16 11:13:46 0 [Note] InnoDB: Completed initialization of buffer pool
+2023-04-16 11:13:46 0 [Note] InnoDB: File system buffers for log disabled (block size=512 bytes)
+2023-04-16 11:13:46 0 [Note] InnoDB: 128 rollback segments are active.
+2023-04-16 11:13:46 0 [Note] InnoDB: Setting file './ibtmp1' size to 12.000MiB. Physically writing the file full; Please wait ...
+2023-04-16 11:13:46 0 [Note] InnoDB: File './ibtmp1' size is now 12.000MiB.
+2023-04-16 11:13:46 0 [Note] InnoDB: log sequence number 46760; transaction id 14
+2023-04-16 11:13:46 0 [Note] Plugin 'FEEDBACK' is disabled.
+2023-04-16 11:13:46 0 [Note] Server socket created on IP: '::'.
+2023-04-16 11:13:46 0 [Note] Server socket created on IP: '0.0.0.0'.
+2023-04-16 11:13:46 0 [Note] c:\wamp64\bin\mariadb\mariadb10.10.2\bin\mysqld.exe: ready for connections.
+Version: '10.10.2-MariaDB'  socket: ''  port: 3307  mariadb.org binary distribution
+2023-04-16 14:02:06 0 [Note] Windows service "wampmariadb64":  received SERVICE_CONTROL_STOP
+2023-04-16 14:02:06 0 [Note] c:\wamp64\bin\mariadb\mariadb10.10.2\bin\mysqld.exe (unknown): Arrêt normal du serveur
+2023-04-16 14:02:06 0 [Note] InnoDB: FTS optimize thread exiting.
+2023-04-16 14:02:06 0 [Note] InnoDB: Starting shutdown...
+2023-04-16 14:02:06 0 [Note] InnoDB: Removed temporary tablespace data file: "./ibtmp1"
+2023-04-16 14:02:06 0 [Note] InnoDB: Shutdown completed; log sequence number 46760; transaction id 15
+2023-04-16 14:02:06 0 [Note] c:\wamp64\bin\mariadb\mariadb10.10.2\bin\mysqld.exe: Arrêt du serveur terminé
+
